@@ -5,41 +5,6 @@
     
  }
 
- .AppHeader {
-   background-color: #fff;
-   display: flex;
-   justify-content: center;
- }
-
- .Options {
-   display: flex;
- }
-
- .OptionHeader {
-   font-size: 16px;
-   display: flex;
-   min-width: 120px;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   height: 100%;
-   padding: 0 5px;
-   cursor: pointer;
-   min-width: 120px;
-
- }
-
- .Icons { 
-   display: flex;
-   align-items: center;
- }
- 
- .IconsList {
-   margin-right: 40px;
-   width: 25px;
- }
-
  li {
    list-style: none;
  }
- 

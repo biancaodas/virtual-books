@@ -1,17 +1,27 @@
-import './style.css'
+import styled from 'styled-components'
 import Perfil from '../../images/perfil.svg'
 import Shopp from  '../../images/shopp.svg'
 
+const IconsLi = styled.li` 
+    margin-right: 40px;
+    width: 25px;
+`
+
+const IconsUl = styled.ul` 
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+`
 
 const Icons = [Perfil, Shopp]
 
 function IconsHeader() {
     return (
-        <ul className='Icons'>
+        <IconsUl>
             {Icons.map (  (icon)  => (
-                <li className='IconsList'><img src={icon}></img></li>
+                <IconsLi><img src={icon}></img></IconsLi>
             )) }
-      </ul>
+      </IconsUl>
     )
 }
 
